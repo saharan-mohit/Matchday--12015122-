@@ -1,0 +1,68 @@
+.card {
+  color: #ffffff;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: #23294a;
+  width: 340px;
+
+  border-radius: 2px;
+  padding: 0.5rem;
+}
+.card-head .main {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.card-head .sub-main {
+  font-weight: 600;
+  margin-block-start: 10px;
+  margin-block-end: 0;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.team-playoffs {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #57b09e;
+  border-radius: 12px;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 800;
+  gap: 4rem;
+}
+
+.team-mem {
+  font-size: 0.9rem;
+  max-width: 100px;
+  word-break: break-word;
+  text-align: center;
+}
+.versus {
+  text-transform: initial;
+}
+
+.team .team-img {
+  width: 70px;
+  height: 70px;
+  clip-path: circle(30%);
+}
+
+.team-mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.winner {
+  position: relative;
+  top: 20px;
+}
+
+.loser {
+  visibility: hidden;
+}

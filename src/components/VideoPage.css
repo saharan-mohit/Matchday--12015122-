@@ -1,0 +1,24 @@
+.video-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eceff8;
+}
+
+.video-head .main {
+  padding: 1rem 4rem;
+  font-weight: 600;
+  height: 100%;
+  border-bottom: 2px solid #000000;
+}
+
+.video-body {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.video-actions {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}

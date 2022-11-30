@@ -1,0 +1,29 @@
+.home-head {
+  font-weight: 600;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.search-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.search-btn {
+  position: relative;
+  left: 25px;
+  cursor: pointer;
+}
+input {
+  border-radius: 5px;
+  padding: 8px 30px;
+  width: 300px;
+  border: 1px solid #b2b2b2;
+}
+
+input:focus {
+  outline-color: #505050;
+}
